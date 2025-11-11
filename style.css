@@ -114,4 +114,64 @@ p{
 footer{
     margin-bottom: 0;
     margin-top: 6rem;
+
 }
+
+@media (max-width: 768px) {
+    body {
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+      background-attachment: scroll;
+    }
+  
+    .logo {
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .logo > img {
+      height: 6rem;
+    }
+  
+    span {
+      font-size: 2rem;
+    }
+  
+    .content {
+      width: 100%;
+      height: auto;
+      padding: 1.2rem;
+      border-radius: 0.8rem;
+    }
+  
+    form {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+    }
+  
+    .left,
+    .right {
+      width: 100%;
+    }
+  
+    input,
+    button {
+      width: 100%;
+    }
+  
+    button {
+      margin-top: 1.5rem;
+      margin-left: 0;
+    }
+  
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+  
+  
